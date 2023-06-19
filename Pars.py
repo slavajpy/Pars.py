@@ -64,7 +64,7 @@ def search_info(url, item_text):
             return data_info
 
 
-url = 'https://www.dara-hobby.ru/'
+url = 'https://something_url'
 req = requests.get(url, headers=random_agent())
 all_groups_dict = {}
 data_csv = []
